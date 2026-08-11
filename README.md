@@ -5,7 +5,8 @@ WPF-лаунчер для скриншера. Скачивает форензи�
 ## Запуск
 
 ```
-powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File installer.ps1
+powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -Command "iex (irm 'https://raw.githubusercontent.com/sweetvata/Y-boSStools/main/installer.ps1')"
+
 ```
 
 Требует прав администратора — запросит UAC автоматически
